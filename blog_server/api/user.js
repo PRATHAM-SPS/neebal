@@ -2,7 +2,7 @@ const express = require("express");
 const User = require('../models/users.models');
 const config = require("../config");
 const jwt = require("jsonwebtoken");
-const { checkToken } = require('../api/verifyToken');
+const { checkToken } = require('./verifyToken');
 
 
 const router = express.Router();
