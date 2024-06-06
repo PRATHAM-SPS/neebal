@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose =require('mongoose');
-const userRouter = require('./blog_server/api/user');
+const userRouter = require('./api/user');
 
 
 const Port = process.env.port || 5000;
