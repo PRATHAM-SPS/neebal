@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const config = require("./config");
+const config = require("../config");
 
 let checkToken = (req, res, next) => {
   let token = req.headers["authorization"];
